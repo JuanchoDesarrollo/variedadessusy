@@ -175,6 +175,9 @@
                             </span>
                         </div>
                         <div class="text-capitalize card-title h5">Cola de raton</div>
+                        <div class="col-md-8 offset-md-2 ">
+                            <button type="button" class="btn btn-success rounded" style="width: 100%;" onclick="openWhatsApp()">Cotizar <i class="bi bi-whatsapp"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -192,6 +195,9 @@
                             </span>
                         </div>
                         <div class="text-capitalize card-title h5">Cola de raton</div>
+                        <div class="col-md-8 offset-md-2 ">
+                            <button type="button" class="btn btn-success rounded" style="width: 100%;" onclick="openWhatsApp()">Cotizar <i class="bi bi-whatsapp"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -209,6 +215,9 @@
                             </span>
                         </div>
                         <div class="text-capitalize card-title h5">Cola de raton</div>
+                        <div class="col-md-8 offset-md-2 ">
+                            <button type="button" class="btn btn-success rounded" style="width: 100%;" onclick="openWhatsApp()">Cotizar <i class="bi bi-whatsapp"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -226,6 +235,9 @@
                             </span>
                         </div>
                         <div class="text-capitalize card-title h5">Cola de raton</div>
+                        <div class="col-md-8 offset-md-2 ">
+                            <button type="button" class="btn btn-success rounded" style="width: 100%;" onclick="openWhatsApp()">Cotizar <i class="bi bi-whatsapp"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -243,6 +255,9 @@
                             </span>
                         </div>
                         <div class="text-capitalize card-title h5">Cola de raton</div>
+                        <div class="col-md-8 offset-md-2 ">
+                            <button type="button" class="btn btn-success rounded" style="width: 100%;" onclick="openWhatsApp()">Cotizar <i class="bi bi-whatsapp"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -335,6 +350,15 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    function openWhatsApp() {
+  const phoneNumber = "1234567890"; // Número de teléfono de WhatsApp, sin el símbolo + ni los espacios
+  const message = "¡Hola! Estoy interesado en cotizar un producto."; // Mensaje predefinido
+
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
+  </script>
 
 </body>
 
